@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Jost", sans-serif;
+}
+
+.pop {
+    font-family: "Poppins", sans-serif;
+}
+
+.clr {
+    color: #EC367E;
+}
+
+.bg-clr {
+    background-color: #EC367E;
+}
+
+.bg-clr1 {
+    background-color: #F8F8F8;
+}
+
+.clr1 {
+    color: #24C6E3;
+}
+
+.clr-black {
+    color: #1D1D1D;
+}
+
+.marg {
+    margin-top: 150px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    text-transform: capitalize;
+}
+
+
+ul>button a {
+    color: #FFF;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.navbar-toggler {
+    background-color: #EC367E;
+    color: white;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.signup-btn {
+    display: flex;
+    width: 120px;
+    padding: 12px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+.singup:hover {
+    background-color: #d20255;
+    color: white;
+}
+
+.main {
+    font-weight: 600;
+}
+
+.main p {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    text-transform: capitalize;
+}
+
+.main-2 p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+
+.work {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 132%;
+    text-transform: capitalize;
+}
+
+.how {
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 132%;
+    /* 38.28px */
+    text-transform: capitalize;
+}
+
+.how-2 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 132%;
+    text-transform: capitalize;
+}
+
+.fs-47 {
+    font-size: 47px;
+    font-weight: 600;
+    line-height: 132%;
+    text-transform: capitalize;
+}
+
+.opacity {
+    opacity: 0.75;
+}
+
+.custom-list {
+    list-style: none;
+    counter-reset: list-counter;
+}
+
+.custom-list li::before {
+    content: counter(list-counter, decimal-leading-zero);
+    counter-increment: list-counter;
+    padding-right: 40px;
+}
+
+.para {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.para1 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.list {
+    font-size: 22px;
+    line-height: 130%;
+    opacity: 0.75;
+}
+
+.client-para {
+    width: 82%;
+}
+
+.carousel-indicators {
+    position: static;
+    left: 0;
+    bottom: 0;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fa-brands {
+    font-size: 46px;
+    /* color: #EC367E; */
+    color: white;
+}
+
+.icon {
+    background-color: #EC367E;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 {
+    padding: 105px 12px;
+}
+
+.f-padding {
+    padding: 30px 0 105px;
+}
+
+.f-hight {
+    height: 105px;
+}
+
+
+@media (max-width: 576px) {
+    .main p {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 145%;
+    }
+
+    .main-2 p {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+    }
+
+    .how-2 {
+        font-size: 29px;
+    }
+
+    .para1 {
+        font-size: 22px;
+    }
+
+    .opacity1 {
+        opacity: .75;
+    }
+
+    .fs-47 {
+        font-size: 29px;
+    }
+
+    .icon {
+        height: 35px;
+        width: 35px;
+    }
+
+    .fa-brands {
+        font-size: 25px;
+    }
+
+    .f-hight {
+        height: 62px;
+        font-size: 15px;
+    }
+
+    .f-padding {
+        padding: 30px 0 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-list li::before {
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin: 18px 0;
+        text-align: center;
+    }
+}
